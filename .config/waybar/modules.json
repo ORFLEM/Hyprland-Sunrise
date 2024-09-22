@@ -1,0 +1,186 @@
+{
+    "custom/menu": {
+		"format": "{icon}",
+		"format-icons": "  _ORFLEM_",
+		"on-click": "wofi --show drun",
+		"escape": true,
+		"tooltip": false
+	},
+
+	"hyprland/workspaces": {
+		"active-only": false,
+                "all-outputs": true,
+                "format": "{icon}",
+                "show-special": false,
+                "on-click": "activate",
+                "on-scroll-up": "hyprctl dispatch workspace -1",
+                "on-scroll-down": "hyprctl dispatch workspace +1",
+		"format-icons": {
+			"urgent": "󱈸",
+			"active": "",
+			"default": ""
+			},
+            "persistent-workspaces": {
+      "*": 5
+    }
+	},
+
+	"hyprland/window": {
+		"format": "{class}",
+		"separate-outputs": false
+	},
+
+    "custom/media": {
+        "tooltip":true,
+        "format": "<span color='#fab387'>{icon}</span> {}",
+        "return-type": "json",
+        "format-icons": {
+        "Playing": "",
+        "Paused": ""
+        },
+        "max-length": 30,
+        "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}}   {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl previous",
+        "on-scroll-down": "playerctl next"
+    },
+
+	"custom/weather": {
+		"format": "{}",
+		"interval": 3,
+		"exec": "~/.config/waybar/scripts/weather.sh",
+		"tooltip": false
+	},
+    
+	"hyprland/language": {
+		"format": "<span color='#fab387'>󰌏 </span> {}",
+		"format-en": "EN",
+		"format-ru": "RU",
+        "on click": ""
+	},
+    
+	"pulseaudio": {
+		"scroll-step": 1,
+		"format": "<span color='#fab387'>{icon}</span> {volume}%",
+		"format-icons": {
+		"default": ["", " ", "  "]
+		},
+		"on-click": "pavucontrol",
+		"tooltip": false
+	},
+
+	"clock": {
+        "interval": 1,
+		"format": "<span color='#fab387'> </span> {:%H:%M:%S}",
+		"tooltip-format": "<span size='15pt'><tt>{calendar}</tt></span>",
+		"format-alt": "<span color='#eba0ac'> </span> <span>{:%d.%m.%Y}</span>",
+
+        "calendar": {
+                    "mode"          : "months",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "none",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months": "<span color='#fab387'><b>{}</b></span>",
+                              "days":       "<span color='#CCCCCC'><b>{}</b></span>",
+                              "weeks":      "<span color='#fab387'><b>нед: {}</b></span>",
+                              "weekdays": "<span color='#fab387'><b>{}</b></span>",
+                              "today": "<span color='#fab387'><b>{}</b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode",
+                    "on-click-forward": "tz_up",
+                    "on-click-backward": "tz_down",
+                    "on-scroll-up": "shift_down",
+                    "on-scroll-down": "shift_up"
+                    }
+		},
+
+	"custom/power": {
+		"format": "{icon}",
+		"format-icons": "",
+		"on-click": "wlogout -b 5",
+		"escape": true,
+		"tooltip": false
+	},
+
+	"bluetooth": {
+        "format": "",
+        "format-disabled": "󰂳",
+        "format-off": "󰂳",
+        "format-disconnected": "󰂱",
+        "format-connected": "󰂱 {device_alias}",
+        "tooltip": true,
+        "tooltip-format": "",
+        "tooltip-format-disabled": "󰂳 Отключено",
+        "tooltip-format-off": "󰂳 Выключено",
+        "tooltip-format-connected": "{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias} 󰂄 {device_battery_percentage}%",
+        "on-click-right": "blueman-manager"
+    },
+
+    "network": {
+        "tooltip": true,
+        "format-wifi": "",
+        "rotate": 0,
+        "format-ethernet": "",
+        "tooltip-format": "Сеть: <b>{essid}</b>\nУровень сигнала: <b>{signaldBm}dBm ({signalStrength}%)</b>\nЧастота: <b>{frequency}MHz</b>\nИнтерфейс: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nШлюз: <b>{gwaddr}</b>\nМаска сети: <b>{netmask}</b>",
+        "format-linked": " {ifname} (No IP)",
+        "format-disconnected": " ",
+        "tooltip-format-disconnected": "Нет соединения",
+        "format-alt": "<span>   {bandwidthDownBytes}</span> <span>    {bandwidthUpBytes}</span>",
+        "interval": 2,
+        "on-click-right": "kitty nmtui"
+    },
+
+    "custom/cava_internal": {
+    "exec": "~/.config/waybar/scripts/Cava.sh",
+    "tooltip": false
+    },
+    
+    "custom/copylist": {
+    "format": "{icon}",
+    "format-icons": "󱘟",
+    "on-click": "cliphist list | wofi --dmenu | cliphist decode | wl-copy",
+    "escape": true,
+    "tooltip": false
+    },
+
+    "custom/change_live_bg": {
+    "format": "{icon}",
+    "format-icons": "",
+    "on-click": "mv -f ~/Документы/change-wallpaper/1.mp4 ~/.config/hypr/live-bg.mp4 | pkill mpvpaper && mpvpaper -o 'loop' '*' ~/.config/hypr/live-bg.mp4",
+    "escape": true,
+    "tooltip": false
+    },
+
+    "custom/change_no_live_bg": {
+    "format": "{icon}",
+    "format-icons": "",
+    "on-click": "mv -f ~/Документы/change-wallpaper/1.jpg ~/.config/hypr/no-live-bg.jpg | pkill swaybg && swaybg -m fill -i ~/.config/hypr/no-live-bg.jpg",
+    "escape": true,
+    "tooltip": false
+    },
+
+    "custom/swaync": {
+    "tooltip":true,     
+    "format": "{icon} {}",
+    "format-icons": {
+      "notification": "<span foreground='#fab387'><sup></sup></span>",
+      "none": "",
+      "dnd-notification": "<span foreground='#fab387'><sup></sup></span>",
+      "dnd-none": "",
+      "inhibited-notification": "<span foreground='#fab387'><sup></sup></span>",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": "<span foreground='#fab387'><sup></sup></span>",
+      "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "sleep 0.1 && swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+}
+}

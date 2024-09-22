@@ -1,0 +1,48 @@
+*{
+    font-family: FiraCode Nerd Font;
+    font-size: 15px;
+}
+
+window {
+    background-color: #0e0d0f;
+    border-radius: 6px;
+    border: 2px solid #fab387;
+    color: #0e0d0f;
+}
+#input {
+    margin: 10 0 10 0x;
+    padding: 1;
+    border-radius: 6px;
+    border: 2px solid #fab387;
+    background-color: #1c1c1c;
+    color: #0e0d0f;
+}
+#inner-box {
+    background-color: #0e0d0f;
+    padding: 15 0 0 0;
+}
+#outer-box {
+    margin: 20px;
+    padding: 0px;
+}
+#text {
+	padding: 8px;
+	margin: 2px;
+	color: #353336;
+}
+#entry {
+	background-color: #0e0d0f;
+	padding: 0 15px;
+}
+#entry:nth-child(even){
+	background-color: #0e0d0f;
+	padding: 0 15px;
+}
+#entry:selected {
+	border-radius: 6px;
+	background-color: #1c1c1c;
+	border: 2px solid #fab387;
+}
+#text:selected {
+	color: #b1a4bd;
+}

@@ -1,0 +1,32 @@
+{
+        "layer": "top",
+	"position": "top",
+	"height": 30,
+	"margin-top": 6,
+	"margin-left": 6,
+	"margin-right": 6,
+    "include": [
+		"~/.config/waybar/modules.json"
+	],
+	"modules-left": [
+		"custom/menu",
+		"custom/copylist",
+		"custom/change_live_bg",
+		"hyprland/workspaces",
+		"hyprland/window"
+	],
+	"modules-center": [
+		"custom/weather",
+		"clock"
+	],
+	"modules-right": [
+		"custom/cava_internal",
+		"custom/media",
+	    "network",
+	 	"bluetooth",
+		"pulseaudio",
+		"hyprland/language",
+		"custom/swaync",
+		"custom/power"
+	]
+}

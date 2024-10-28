@@ -3,15 +3,18 @@
         <img src="./assets/sunrise.png" height="500px">
    </div>
 
-## Update
+## 󰚰 Update
 
-added support wide monitors 16:9 <br /> if you have use wide live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43) <br /> added support change themes
+added support wide monitors 16:9 <br /> 
+if you have use wide live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43) <br /> 
+added support change themes <br /> 
+
 
 ##  📥 Installation
 > [!IMPORTANT]
 > You need install: waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio and two fonts: fira code nerd and mononoki. Different, you won't be able to fully use this configuration!
 
-## info:
+## 📄 info:
 
 This configuration correctly work on ultrawide monitors (21:9)
 

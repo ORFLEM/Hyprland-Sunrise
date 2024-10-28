@@ -30,7 +30,7 @@ This configuration correctly work on ultrawide monitors (21:9)
 
   ### waybar:
    <div>
-        <img src="./assets/waybar.png" height="100px">
+        <img src="./assets/waybar.png" height="75px">
    </div>
 
   ### wofi:

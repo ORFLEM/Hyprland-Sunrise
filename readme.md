@@ -22,10 +22,10 @@ This configuration correctly work on ultrawide monitors (21:9)
   
   ### workspace:
    <div>
-        <img src="./assets/workspace.png" height="250px">
+        <img src="./assets/workspace.png" height="350px">
    </div>
    <div>
-        <img src="./assets/programs.png" height="250px">
+        <img src="./assets/programs.png" height="350px">
    </div>
 
   ### waybar:

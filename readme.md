@@ -12,7 +12,7 @@ added support change themes <br />
 
 ##  📥 Installation
 > [!IMPORTANT]
-> You need install: waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio and two fonts: fira code nerd and mononoki. Different, you won't be able to fully use this configuration!
+> You need install: hyprbars, hyprspace waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio and two fonts: fira code nerd and mononoki. Different, you won't be able to fully use this configuration!
 
 ## 📄 info:
 

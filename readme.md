@@ -30,7 +30,7 @@ This configuration correctly work on ultrawide monitors (21:9)
 
   ### waybar:
    <div>
-        <img src="./assets/waybar.png" height="150px">
+        <img src="./assets/waybar.png" height="50px">
    </div>
 
   ### wofi:
@@ -51,7 +51,7 @@ This configuration correctly work on ultrawide monitors (21:9)
   ### wlogout:
 
    <div>
-        <img src="./assets/wlogout.png" height="500px">
+        <img src="./assets/wlogout.png" height="350px">
    </div>
 
 ## created by: `_ORFLEM_`

@@ -3,7 +3,7 @@
         <img src="./assets/sunrise.png" height="500px">
    </div>
 
-## 󰚰 Update
+## 💾 Update
 
 added support wide monitors 16:9 <br /> 
 if you have use wide live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43) <br /> 
@@ -22,15 +22,15 @@ This configuration correctly work on ultrawide monitors (21:9)
   
   ### workspace:
    <div>
-        <img src="./assets/workspace.png" height="500px">
+        <img src="./assets/workspace.png" height="250px">
    </div>
    <div>
-        <img src="./assets/programs.png" height="500px">
+        <img src="./assets/programs.png" height="250px">
    </div>
 
   ### waybar:
    <div>
-        <img src="./assets/waybar.png" height="250px">
+        <img src="./assets/waybar.png" height="150px">
    </div>
 
   ### wofi:

@@ -1,8 +1,8 @@
 {
     "custom/menu": {
 		"format": "{icon}",
-		"format-icons": "  _ORFLEM_",
-		"on-click": "wofi --show drun",
+		"format-icons": "   _ORFLEM_",
+		"on-click": "pgrep wofi && pkill wofi || wofi --show drun",
 		"escape": true,
 		"tooltip": false
 	},
@@ -65,7 +65,7 @@
 		"format-icons": {
 		"default": ["", " ", "  "]
 		},
-		"on-click": "pavucontrol",
+		"on-click": "pgrep pwvucontrol && pkill pwvucontrol || pwvucontrol",
 		"tooltip": false
 	},
 
@@ -73,7 +73,7 @@
         "interval": 1,
 		"format": "<span color='#fab387'> </span> {:%H:%M:%S}",
 		"tooltip-format": "<span size='15pt'><tt>{calendar}</tt></span>",
-		"format-alt": "<span color='#eba0ac'> </span> <span>{:%d.%m.%Y}</span>",
+		"format-alt": "<span color='#fab387'> </span> <span>{:%d.%m.%Y}</span>",
 
         "calendar": {
                     "mode"          : "months",
@@ -117,7 +117,7 @@
         "tooltip-format-off": "󰂳 Выключено",
         "tooltip-format-connected": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias} 󰂄 {device_battery_percentage}%",
-        "on-click-right": "blueman-manager"
+        "on-click": "pgrep blueman-manager && pkill blueman-manager || blueman-manager"
     },
 
     "network": {
@@ -142,7 +142,7 @@
     "custom/copylist": {
     "format": "{icon}",
     "format-icons": "󱘟",
-    "on-click": "cliphist list | wofi --dmenu | cliphist decode | wl-copy",
+    "on-click": "pgrep wofi && pkill wofi || cliphist list | wofi --dmenu | cliphist decode | wl-copy",
     "escape": true,
     "tooltip": false
     },
@@ -150,7 +150,15 @@
     "custom/change_live_bg": {
     "format": "{icon}",
     "format-icons": "",
-    "on-click": "mv -f ~/Документы/change-wallpaper/1.mp4 ~/.config/hypr/live-bg.mp4 | pkill mpvpaper && mpvpaper -o 'loop' '*' ~/.config/hypr/live-bg.mp4",
+    "on-click": "mv -f ~/Документы/change-wallpaper/1.mp4 ~/.config/hypr/live-bg.mp4 | pkill mpvpaper && mpvpaper -o 'loop video-zoom=0' '*' ~/.config/hypr/live-bg.mp4",
+    "escape": true,
+    "tooltip": false
+    },
+
+    "custom/change_live_bgz": {
+    "format": "{icon}",
+    "format-icons": "",
+    "on-click": "mv -f ~/Документы/change-wallpaper/1.mp4 ~/.config/hypr/live-bg.mp4 | pkill mpvpaper && mpvpaper -o 'loop video-zoom=0.43' '*' ~/.config/hypr/live-bg.mp4",
     "escape": true,
     "tooltip": false
     },
@@ -179,7 +187,7 @@
     "return-type": "json",
     "exec-if": "which swaync-client",
     "exec": "swaync-client -swb",
-    "on-click": "sleep 0.1 && swaync-client -t -sw",
+    "on-click": "pgrep swaync-client && pkill swaync-client || sleep 0.1 && swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
 }

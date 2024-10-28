@@ -1,11 +1,11 @@
 width = 1000
 hight = 750
 
-columns=2
+columns=4
 hide_scroll=true
 location = center
 show = drun
-prompt = Поиск...
+prompt = поиск...
 filter_rate = 100
 allow_markup = true
 no_actions = true

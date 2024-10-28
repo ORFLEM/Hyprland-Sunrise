@@ -1,3 +1,4 @@
+@define-color accent #fab387;
 
 * {
   color: #CCCCCC;
@@ -56,7 +57,7 @@
 }
 
 .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -75,7 +76,7 @@
 }
 
 .control-center .notification-row .notification-background .close-button:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -90,7 +91,7 @@ trough {
 }
 
 progressbar {
-  background-color: #fab387;
+  background-color: @accent;
 }
 
 /* Notifications expanded-group */
@@ -121,7 +122,7 @@ progressbar {
 
 .notification-group-collapse-button:hover,
 .notification-group-close-all-button:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }  
 
@@ -140,7 +141,7 @@ progressbar {
 }
 
 .widget-title button:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -163,7 +164,7 @@ progressbar {
 }
 
 .widget-dnd > switch:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -172,7 +173,7 @@ progressbar {
 }
 
 .widget-dnd > switch:checked:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -198,7 +199,7 @@ progressbar {
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -231,7 +232,7 @@ progressbar {
 }
 
 .widget-mpris button:hover {
-  color: #fab387;
+  color: @accent;
 }
 
 .widget-mpris-album-art {
@@ -251,13 +252,13 @@ progressbar {
 /* Volume */
 .widget-volume {
   background: #181825;
-  color: #fab387;
+  color: @accent;
   padding: 4px;
   margin: 6px;
   border-radius: 6px;
 }
 .widget-volume:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
   }
 
@@ -294,14 +295,14 @@ progressbar {
 }
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
-  border-radius: 8px;
+  border-radius: 6px;
   background-color: #181825;
   margin: 6px;
   border: none;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 
@@ -332,7 +333,7 @@ progressbar {
 }
 
 .floating-notifications.background .notification-row .notification-background .close-button:hover {
-  background-color: #fab387;
+  background-color: @accent;
 	color: #000000;
 }
 

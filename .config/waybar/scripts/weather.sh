@@ -46,7 +46,7 @@ CITY="Tomsk"
 UNITS="metric"
 SYMBOL="°c"
 
-API="https://api.openweathermap.org/data/2.5"
+API="https://api.openweathermap.org/data/3.0"
 
 if [ -n "$CITY" ]; then
     if [ "$CITY" -eq "$CITY" ] 2>/dev/null; then

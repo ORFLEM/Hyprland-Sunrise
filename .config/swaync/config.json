@@ -1,5 +1,4 @@
 {
-  "$schema": "/etc/xdg/swaync/configSchema.json",
   "positionX": "right",
   "positionY": "top",
 	"cssPriority": "user",
@@ -51,12 +50,12 @@
   ],
   "widget-config": {
     "title": {
-      "text": "Notifications",
+      "text": "Очистить уведомления",
       "clear-all-button": true,
       "button-text": " 󰎟 "
     },
     "dnd": {
-      "text": "Do not disturb"
+      "text": "не показывать уведомления"
     },
     "label": {
       "max-lines": 1,

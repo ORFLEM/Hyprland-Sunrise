@@ -5,9 +5,7 @@
 
 ## Update
 
-added support wide monitors 16:9
-if you have use wide live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43)
-added support change themes
+added support wide monitors 16:9 <br /> if you have use wide live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43) <br /> added support change themes
 
 ##  📥 Installation
 > [!IMPORTANT]

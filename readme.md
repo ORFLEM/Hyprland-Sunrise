@@ -55,6 +55,7 @@
    <div>
         <img src="./assets/wlogout.png" height="350px">
    </div>
+   
 ## 💾 Update:
 
 added support wide monitors (16:9) <br />

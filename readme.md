@@ -2,7 +2,10 @@
    <div>
         <img src="./assets/sunrise.png" height="500px">
    </div>
+<a name="ru"></a>
+<a name="en" ></a>
 
+[](#ru)
 ## 💾 Обновление:
 
 Добавленна поддержка широких мониторов (16:9) <br />
@@ -54,6 +57,7 @@
         <img src="./assets/wlogout.png" height="350px">
    </div>
 
+[](#en)
 ## 💾 Update:
 
 added support wide monitors (16:9) <br />

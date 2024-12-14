@@ -16,7 +16,7 @@
 
 ##  📥 Установка
 > [!IMPORTANT]
-> Вам надо поставить: hyprbars, waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio и два шрифта: fira code nerd и mononoki. Иначе полноыенно использовать конфигурацию hyprland не получится!
+> Вам надо поставить: hyprbars, waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio и два шрифта: fira code nerd и mononoki. Иначе полноценно использовать конфигурацию hyprland не получится!
 
 ## 📄 Об проекте:
 

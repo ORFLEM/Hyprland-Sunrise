@@ -10,11 +10,13 @@
 Добавленна поддержка широких мониторов (16:9) <br />
 вы можете использвоать видео обои 16:9 на ултраширких мониторах (21:9) используя в waybar change_live_bgz и в hyprland exec-once = ... (zoom 0.43) <br />
 добавлена смена тем <br />
+фикс ошибки с тенями <br />
+фикс цвета окантовки <br />
 
 
 ##  📥 Установка
 > [!IMPORTANT]
-> Вам надо поставить: hyprbars, hyprspace, waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio и два шрифта: fira code nerd и mononoki. Иначе полноыенно использовать конфигурацию hyprland не получится!
+> Вам надо поставить: hyprbars, waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio и два шрифта: fira code nerd и mononoki. Иначе полноыенно использовать конфигурацию hyprland не получится!
 
 ## 📄 Об проекте:
 
@@ -61,11 +63,13 @@
 added support wide monitors (16:9) <br />
 if you have use wide (16:9) live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43) <br />
 added support change themes <br />
+fix shadow conflict <br />
+fix underline colors <br />
 
 
 ##  📥 Installation
 > [!IMPORTANT]
-> You need install: hyprbars, hyprspace, waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio and two fonts: fira code nerd and mononoki. Different, you won't be able to fully use this configuration!
+> You need install: hyprbars, waybar, swaync, wlogout, wofi, blueman, playerctl, cava, mpvpaper, swaybg, NetworkManager-tui, chiphist, pulseaudio and two fonts: fira code nerd and mononoki. Different, you won't be able to fully use this configuration!
 
 ## 📄 info:
 

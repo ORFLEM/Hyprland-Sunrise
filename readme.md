@@ -7,6 +7,7 @@
    
 ## 💾 Обновление:
 
+проект заброшен, есть по сути тот же, но обновлённый, причина забрасывания: замена всего на eww + смена дистрибутива <br />
 Добавленна поддержка широких мониторов (16:9) <br />
 вы можете использвоать видео обои 16:9 на ултраширких мониторах (21:9) используя в waybar change_live_bgz и в hyprland exec-once = ... (zoom 0.43) <br />
 добавлена смена тем <br />
@@ -60,6 +61,7 @@
    
 ## 💾 Update:
 
+this project depricated, show my new project <br />
 added support wide monitors (16:9) <br />
 if you have use wide (16:9) live wallpaper on ultrawide monitors (21:9) you have use in waybar change_live_bgz, in hyprland exec-once = ... (zoom 0.43) <br />
 added support change themes <br />
